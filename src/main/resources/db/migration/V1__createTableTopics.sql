@@ -1,0 +1,7 @@
+CREATE TABLE topics(
+id bigint NOT NULL AUTO_INCREMENT,
+topicTitle VARCHAR(30) NOT NULL UNIQUE,
+topicMessage VARCHAR(200) NOT NULL UNIQUE,
+topicDate DATETIME NOT NULL ,
+primary key(id)
+);
