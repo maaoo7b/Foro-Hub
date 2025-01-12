@@ -2,14 +2,12 @@ package com.alura.challenge.foro_hub.controller;
 
 import com.alura.challenge.foro_hub.domain.topic.Topic;
 import com.alura.challenge.foro_hub.domain.topic.TopicsRepository;
-import com.alura.challenge.foro_hub.domain.topic.dto.DataResponseJson;
+import com.alura.challenge.foro_hub.domain.DataResponseJson;
 import com.alura.challenge.foro_hub.domain.topic.dto.DataResponseTopic;
 import com.alura.challenge.foro_hub.domain.topic.dto.TopicDTO;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DataIntegrityViolationException;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
